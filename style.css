@@ -1,0 +1,47 @@
+.body{
+    display: flex;
+    margin: 0;
+    align-content: center;
+    flex-direction: column;
+    
+
+
+}
+
+.header {
+
+    display: inline-flex;
+    flex-flow: row nowrap;
+    background-color: #1F2937;
+    gap: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+    
+    
+    
+    
+    
+}
+
+.header > .logo {
+
+    flex-grow: 3;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding: 5px;
+
+    
+    
+
+}
+
+.header > .link {
+    
+    justify-content: flex-end;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
