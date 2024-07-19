@@ -31,7 +31,7 @@
     color: #F9FAF8;
     font-size: 24px;
     padding: 5px;
-
+    
     
     
 
@@ -43,5 +43,48 @@
     color: #E5E7EB;
     font-size: 18px;
     padding: 10px;
+}
+
+.hero {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    background-color: #1F2937;
+    flex-basis: 100%; /* makes two containers equal size*/
+    justify-content: space-around;
+    
+
+
+}
+
+.hero > .main {
+    display: inline-block;
+    margin: 100px;
+    
+
+}
+
+.main > .primary {
+    font-size: 48px;
+    font-weight: bold;
+    
+    
+}
+
+.main > .secondary {
+    
+    font-size: 18px;
+    color:#E5E7EB;
+    
+    
+    
+
+}
+
+.hero > .placeholder {
+    
+    background-color: grey;
+    flex-basis: 100%;
+    margin: 100px;
+
 }
 
